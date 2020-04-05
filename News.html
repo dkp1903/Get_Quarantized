@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <style>
+    html{
+      background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxYsUyur0KvJy26U8r6bt5hwk2Owgu-ATpm4kxX3Z2k7gRx5I_&usqp=CAU");
+      background-size:cover;
+    }
+      #mytable td {
+        border: 1px black solid;
+        font-weight: bold;
+        color: White;
+      }
+    </style>
+  </head>
+  <body>
+
+    <table id="mytable">
+      <tr>
+        <td>Country Name</td>
+        <td>Confirmed Cases</td>
+      </tr>
+    </table>
+
+    <script>
+      const resp = fetch("https://pomber.github.io/covid19/timeseries.json")
+        .then((response) => {
+          return response.json();
+        })
+        .then((data) => {
+          console.log(data);
+          let table = document.getElementById("mytable");
+          for (let country in data) {
+            // console.log(country, data[country]);
+            let latestCaseCount =
+              data[country][data[country].length - 1]["confirmed"];
+            // console.log(latestCaseCount)
+            table.innerHTML += "<tr>";
+            table.innerHTML +=
+              "<td>" + country + "</td>" + "<td>" + latestCaseCount + "</td>";
+            table.innerHTML += "</tr>";
+          }
+        });
+    </script>
+  </body>
+</html>
