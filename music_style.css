@@ -1,0 +1,235 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.clear{
+  clear: left;
+}
+
+header{
+  height:100px;
+  width:100%;
+  }
+.container1{
+  padding: 0 5px 0 20px;
+  background-color: pink;
+  height:100px;
+}
+
+h1{
+  font-size: 60px;
+  padding-top:45px;
+  font-family: Apple Chancery;
+  font-style:italic;
+}
+
+.start{
+  margin:25px 50px;
+}
+.start p{
+  font-size: 25px;
+  padding-bottom: 7px;
+  font-family: cursive;
+}
+
+.content{
+  margin: 80px 200px;
+}
+
+.list1{
+  text-align: centre;
+  height: 500px;
+  position:relative;
+
+}
+
+.list1::before{
+  background-image: url(https://paytagz.com/wp-content/uploads/2016/12/More-important-information.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+
+.self{
+  margin-bottom: 100px;
+}
+
+p.title{
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: pink;
+}
+
+.list1 a{
+  color:black;
+}
+.list1 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list2{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list2 a{
+  color:black;
+}
+.list2::before{
+  background-image: url(https://image.shutterstock.com/image-vector/hip-hop-music-illustration-graffiti-260nw-757742746.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list2 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list3{
+  text-align: centre;
+  height: 500px;
+  position:relative;
+}
+.list3 a{ color:black;}
+.list3::before{
+  background-image: url(https://previews.123rf.com/images/paseven/paseven1711/paseven171100076/89699839-banni%C3%A8re-de-vecteur-ou-embl%C3%A8me-avec-des-mots-musique-rock-guitare-%C3%A9lectrique-avec-des-ailes-sur-le-fond-d-.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list3 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list4{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list4 a{color:black;}
+.list4::before{
+  background-image: url(https://cdn4.vectorstock.com/i/1000x1000/98/98/jazz-logo-or-label-live-music-musical-festival-vector-23729898.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list4 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list5{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list5 a{ color:black;}
+.list5::before{
+  background-image: url(https://i.pinimg.com/originals/35/8b/83/358b839498e59f98f902e12e74aef3c8.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list5 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list6{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list6 a{color:black;}
+.list6::before{
+  background-image: url(https://wallpapercave.com/wp/wp2737349.jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list6 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+a:hover{
+  border-bottom: 2px solid black;
+}

@@ -1,0 +1,194 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+.clear{
+  clear: left;
+}
+
+header{
+  height:100px;
+  width:100%;
+  }
+.container1{
+  padding: 0 5px 0 20px;
+  background-color: pink;
+  height:100px;
+}
+
+h1{
+  font-size: 60px;
+  padding-top:45px;
+  font-family: Apple Chancery;
+  font-style:italic;
+}
+
+.start{
+  margin:25px 50px;
+}
+.start p{
+  font-size: 25px;
+  padding-bottom: 7px;
+  font-family: cursive;
+}
+
+.content{
+  margin: 80px 200px;
+}
+
+.list1{
+  text-align: centre;
+  height: 500px;
+  position:relative;
+
+}
+
+.list1::before{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTasWU4GnoEmWeSjecbMaxbcMCISLubYoDalk-h23ukedsCHNo_&usqp=CAU);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+
+.self{
+  margin-bottom: 100px;
+}
+
+p.title{
+  margin-bottom: 10px;
+  font-size: 30px;
+  background-color: pink;
+}
+
+.list1 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list2{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list2::before{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR4p55QIXdtGXoHUSAWHRWbE9HVxohPxl7dd2favPP0NXUA2XPh&usqp=CAU);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list2 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list3{
+  text-align: centre;
+  height: 500px;
+  position:relative;
+}
+.list3::before{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQinI18q2hbp-J2TKT9CGr_FmznVhelSwqpXRzCDRQ-e5e9o2q&usqp=CAU);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list3 p{
+  text-align: center;
+  opacity: 1;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list4{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list4::before{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQWjX2IQb3efwwDrNrfntIbTe3hAEOJYdJxoPDmLy1iJDi2fHIB&usqp=CAU);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list4 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
+
+.list5{
+  text-align: centre;
+  height: 500px;
+  position: relative;
+}
+.list5::before{
+  background-image: url(https://cache.lovethispic.com/uploaded_images/thumbs/323870-Love-Stories....jpg);
+  background-size: cover;
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  height:100%;
+  width:100%;
+  z-index:-2;
+  opacity:0.5;
+}
+.list5 p{
+  text-align: center;
+  opacity: 1;
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+  padding-top:40px;
+}
